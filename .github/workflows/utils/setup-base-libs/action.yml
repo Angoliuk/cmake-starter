@@ -54,12 +54,5 @@ runs:
         chmod +x core/install.sh
         sudo ./core/install.sh
 
-        # mkdir -p $(pwd)/apps/usr/local/bin
-        # echo "$(pwd)/apps/usr/local/bin" >> $GITHUB_PATH
-        # cd wm
-        # chmod +x config.sh
-        # ./config.sh
-        # echo "$(pwd)" >> $GITHUB_PATH
-
     - name: Setup conan base
       uses: ./.github/workflows/utils/setup-conan
